@@ -1,10 +1,3 @@
-"""
-
-AStar search
-
-author: Ashwin Bose (@atb033)
-
-"""
 
 class AStar():
     def __init__(self, env):
@@ -12,40 +5,6 @@ class AStar():
         self.admissible_heuristic = env.admissible_heuristic
         self.is_at_goal = env.is_at_goal
         self.get_neighbors = env.get_neighbors
-
-    def reconstruct_path(self, came_from, current):
-        total_path = [current]
-        new_path = []
-        last = []
-        curr = []
-        full = []
-        for i in came_from:
-            curr.append(i.location)
-            last.append(came_from[i].location)
-            full.append(i)
-            # print('curr', "  ", i.location)
-        look_for = current.location
-        # print("   ------    ")
-        
-        for i ,j in enumerate(reversed(curr)):
-            # print(i)
-            # print(j, "   ", look_for)
-            if j == look_for:
-                new_path.append(full[len(full)-i-1])
-                print("looking for", look_for, "   last",last[len(last) - i-1] , "i - ", i)
-                look_for = last[len(last) - i-1]
-
-        print("=================================")
-        
-        while current in came_from.keys():
-            current = came_from[current]
-            total_path.append(current)
-
-        
-        # # for i, j in enumerate(new_path):
-
-        # return new_path
-        return total_path[::-1]
 
     def search(self, agent_name):
         """
@@ -118,4 +77,37 @@ class AStar():
                 g_score[neighbor] = tentative_g_score
                 f_score[neighbor] = g_score[neighbor] + self.admissible_heuristic(neighbor, agent_name)
         return False
+    def reconstruct_path(self, came_from, current):
+        total_path = [current]
+        new_path = []
+        last = []
+        curr = []
+        full = []
+        for i in came_from:
+            curr.append(i.location)
+            last.append(came_from[i].location)
+            full.append(i)
+            # print('curr', "  ", i.location)
+        look_for = current.location
+        # print("   ------    ")
+        
+        for i ,j in enumerate(reversed(curr)):
+            # print(i)
+            # print(j, "   ", look_for)
+            if j == look_for:
+                new_path.append(full[len(full)-i-1])
+                print("looking for", look_for, "   last",last[len(last) - i-1] , "i - ", i)
+                look_for = last[len(last) - i-1]
+
+        print("=================================")
+        
+        while current in came_from.keys():
+            current = came_from[current]
+            total_path.append(current)
+
+        
+        # # for i, j in enumerate(new_path):
+
+        # return new_path
+        return total_path[::-1]
 
