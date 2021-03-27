@@ -1,21 +1,18 @@
-"""
 
-Python implementation of Conflict-based search
-
-author: Ashwin Bose (@atb033)
-
-"""
+import pandas
+import os
 import sys
-sys.path.insert(0, '../')
 import argparse
 import yaml
 from math import fabs
 from itertools import combinations
 from copy import deepcopy
 import numpy
-from cbs.a_star import AStar
+from a_star import AStar
 
 cnt =0 
+is_pick = False
+is_drop = False
 
 class Location(object):
     def __init__(self, x=-1, y=-1):
