@@ -34,7 +34,8 @@ of all assigned tasks. . To also account for the path collision constraints the 
 
 #Test 1 (2 agents)
 
-https://user-images.githubusercontent.com/61622274/112755766-cf29fd00-8fff-11eb-9904-521359b25348.mp4
+![result1](https://user-images.githubusercontent.com/45457551/112756617-aad01f80-9003-11eb-808b-2aa26d9c786b.gif)
+
 
 #Test 2 (3 agents)
 
