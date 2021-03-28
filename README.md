@@ -32,6 +32,9 @@ of all assigned tasks. . To also account for the path collision constraints the 
 
 ## Results
 
+![blue](https://user-images.githubusercontent.com/45457551/112756781-5da07d80-9004-11eb-91ab-3e6df5895d64.PNG)  - End Position
+
+
 #Test 1 (2 agents)
 
 ![result1](https://user-images.githubusercontent.com/45457551/112756617-aad01f80-9003-11eb-808b-2aa26d9c786b.gif)
