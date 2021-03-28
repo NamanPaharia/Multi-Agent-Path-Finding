@@ -33,11 +33,9 @@ of all assigned tasks. . To also account for the path collision constraints the 
 ## Installation Guide and User Manual
 
 ## Results
+<img src="https://user-images.githubusercontent.com/45457551/112757854-081a9f80-9009-11eb-9110-78eb565b9868.PNG" width="20" height="20" />   - Pick-up                              <img src="https://user-images.githubusercontent.com/45457551/112757928-621b6500-9009-11eb-81c5-93afea6ad0b3.PNG" width="20" height="20" />   - Drop Location                              <img src="https://user-images.githubusercontent.com/45457551/112757878-2c767c00-9009-11eb-97b5-a8f6c6c16b7d.PNG" width="20" height="20" />   - Destination                              <img src="https://user-images.githubusercontent.com/45457551/112757958-7eb79d00-9009-11eb-979e-b58585bc2cd5.PNG" width="20" height="20" />   - Obstacles
 
-<img src="https://github.com/NamanPaharia/Multi-Agent-Path-Finding-AIFA/blob/main/blue.PNG" width="20" height="20" />   - Destination
-<img src="https://user-images.githubusercontent.com/45457551/112757854-081a9f80-9009-11eb-9110-78eb565b9868.PNG" width="20" height="20" />   - Pick-up
 
-![pick](https://user-images.githubusercontent.com/45457551/112757854-081a9f80-9009-11eb-9110-78eb565b9868.PNG)
 
 
 
