@@ -32,7 +32,7 @@ of all assigned tasks. . To also account for the path collision constraints the 
 
 ## Results
 
-<img src="https://github.com/NamanPaharia/Multi-Agent-Path-Finding-AIFA/blob/main/blue.PNG" width="10" height="10" />
+<img src="https://github.com/NamanPaharia/Multi-Agent-Path-Finding-AIFA/blob/main/blue.PNG" width="20" height="20" />   - Destination
 
 
 
