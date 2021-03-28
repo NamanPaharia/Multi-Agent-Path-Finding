@@ -14,7 +14,7 @@ It has 3 components/parameters -
 
 (a) g : Cost incurred in moving from the start state to the current state (it also takes into account all the costs incurred in the path). In pur codes we have taken it as the manhattan distance between two consecutive states
 (b) h : The "heuristic value", it is the expected cost of moving from current cell to the final cell, we have taken it to be the euclidean distance between the two in our codes (the ones using heuristics, otherwise for optimal it is taken to be 0)
-(c) f : The sum of g and f, depending on which, a node is explored (if the sum is minimum fot that node in the open list)
+(c) f : The sum of g and h, depending on which, a node is explored (if the sum is minimum for that node in the open list)
 
 ### 2. CBS - 
 
