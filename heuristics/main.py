@@ -1,18 +1,15 @@
 
-import pandas
-import os
 import sys
+sys.path.insert(0, '../')
 import argparse
 import yaml
 from math import fabs
 from itertools import combinations
 from copy import deepcopy
 import numpy
-from a_star import AStar
+from cbs.a_star import AStar
 
 cnt =0 
-is_pick = False
-is_drop = False
 
 class Location(object):
     def __init__(self, x=-1, y=-1):
@@ -213,12 +210,13 @@ class Environment(object):
     def admissible_heuristic(self, state, agent_name):
         goal = self.agent_dict[agent_name]["goal"]
         if(self.agent_dict[agent_name]['check'].location.y ==1):
-            return fabs(state.location.x - goal.location.x) + fabs(state.location.y - goal.location.y) 
+            # return fabs(state.location.x - goal.location.x) + fabs(state.location.y - goal.location.y) 
         if(self.agent_dict[agent_name]['check'].location.x ==1):
             x = fabs(state.location.x - goal.location.x) + fabs(state.location.y - goal.location.y)
             x+= fabs(self.agent_dict[agent_name]["drop"].location.x - self.agent_dict[agent_name]["end"].location.x) + fabs(self.agent_dict[agent_name]["drop"].location.y - self.agent_dict[agent_name]["end"].location.y)
-            return x
-        return fabs(state.location.x - goal.location.x) + fabs(state.location.y - goal.location.y)
+            # return x
+        # return fabs(state.location.x - goal.location.x) + fabs(state.location.y - goal.location.y)
+        return 0
     
 
     # check if at goal
