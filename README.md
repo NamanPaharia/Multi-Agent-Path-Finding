@@ -32,7 +32,11 @@ of all assigned tasks. . To also account for the path collision constraints the 
 
 ## Results
 
-![blue](https://user-images.githubusercontent.com/45457551/112756781-5da07d80-9004-11eb-91ab-3e6df5895d64.PNG =24x48)  - End Position
+<img src="(https://user-images.githubusercontent.com/45457551/112757418-5af35780-9007-11eb-9b4d-62d0cae360b9.png" width="10" height="10" />
+
+
+
+![blue](https://github.com/NamanPaharia/Multi-Agent-Path-Finding-AIFA/blob/main/blue.PNG =24x48)  - End Position
 
 
 #Test 1 (2 agents)
