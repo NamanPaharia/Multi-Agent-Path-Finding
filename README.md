@@ -25,7 +25,7 @@ As explained by the creators of this algorithm - *"CBS (Conflict Based Search) i
 
 ### 3. TCBS -
 
-For Dynamic task allocation, TCBS (Task Conflict Based Search) algorithm by C. Henkel, J. Abbenseth and M. Toussaint can be used in future work. This algorithm  searches on thelevel of task assignments for all agents. Given a configuration of task assignments and neglecting collision constraints. It uses standard single-agent path finding to compute the corresponding optimal paths that connect the agents configurations to the start and the start to the goal configurations
+For Dynamic task allocation, TCBS (Task Conflict Based Search) algorithm by C. Henkel, J. Abbenseth and M. Toussaint can be used. This algorithm  searches on the    level of task assignments for all agents. Given a configuration of task assignments and neglecting collision constraints. It uses standard single-agent path finding to compute the corresponding optimal paths that connect the agents configurations to the start and the start to the goal configurations
 of all assigned tasks. . To also account for the path collision constraints the approach of conflict-based search is used
 
 ## Installation Guide and User Manual
