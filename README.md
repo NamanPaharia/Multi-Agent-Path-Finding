@@ -1,5 +1,3 @@
-![pick](https://user-images.githubusercontent.com/45457551/112757821-f802c000-9008-11eb-921d-8da66fbcf7b4.PNG)
-![pick](https://user-images.githubusercontent.com/45457551/112757835-ffc26480-9008-11eb-9924-9ca1fdffd5d0.PNG)
 # Multi-Agent-Path-Finding-AIFA
 ## Problem Statement
 
