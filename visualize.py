@@ -53,6 +53,7 @@ class Animation:
       self.patches.append(Rectangle((x - 0.5, y - 0.5), 1, 1, facecolor='black', edgecolor='black'))
       
     """
+    comment out if not using temporary storage
     self.patches.append(Rectangle((xmin, ymin), xmax - xmin, ymax - ymin, facecolor='none', edgecolor='green'))
     for o in map["map"]["temporary_storage"]:
       x, y = o[0], o[1]
