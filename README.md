@@ -28,7 +28,14 @@ As explained by the creators of this algorithm - *"CBS (Conflict Based Search) i
 For Dynamic task allocation, TCBS (Task Conflict Based Search) algorithm by C. Henkel, J. Abbenseth and M. Toussaint can be used. This algorithm  searches on the    level of task assignments for all agents. Given a configuration of task assignments and neglecting collision constraints. It uses standard single-agent path finding to compute the corresponding optimal paths that connect the agents configurations to the start and the start to the goal configurations
 of all assigned tasks. . To also account for the path collision constraints the approach of conflict-based search is used
 
-## Installation Guide and User Manual
+## Requirements
+
+For installing requirements run - 
+```
+
+pip install -r requirements.txt
+
+```
 
 ## Results
 <img src="https://user-images.githubusercontent.com/45457551/112757854-081a9f80-9009-11eb-9110-78eb565b9868.PNG" width="20" height="20" />   - Pick-up                              <img src="https://user-images.githubusercontent.com/45457551/112757928-621b6500-9009-11eb-81c5-93afea6ad0b3.PNG" width="20" height="20" />   - Drop Location                              <img src="https://user-images.githubusercontent.com/45457551/112757878-2c767c00-9009-11eb-97b5-a8f6c6c16b7d.PNG" width="20" height="20" />   - Destination                              <img src="https://user-images.githubusercontent.com/45457551/112757958-7eb79d00-9009-11eb-979e-b58585bc2cd5.PNG" width="20" height="20" />   - Obstacles
