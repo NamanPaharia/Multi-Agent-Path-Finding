@@ -1,3 +1,5 @@
+![pick](https://user-images.githubusercontent.com/45457551/112757821-f802c000-9008-11eb-921d-8da66fbcf7b4.PNG)
+![pick](https://user-images.githubusercontent.com/45457551/112757835-ffc26480-9008-11eb-9924-9ca1fdffd5d0.PNG)
 # Multi-Agent-Path-Finding-AIFA
 ## Problem Statement
 
@@ -33,8 +35,9 @@ of all assigned tasks. . To also account for the path collision constraints the 
 ## Results
 
 <img src="https://github.com/NamanPaharia/Multi-Agent-Path-Finding-AIFA/blob/main/blue.PNG" width="20" height="20" />   - Destination
+<img src="https://user-images.githubusercontent.com/45457551/112757854-081a9f80-9009-11eb-9110-78eb565b9868.PNG" width="20" height="20" />   - Pick-up
 
-
+![pick](https://user-images.githubusercontent.com/45457551/112757854-081a9f80-9009-11eb-9110-78eb565b9868.PNG)
 
 
 
